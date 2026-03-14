@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FullScreen GIF</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+    height: 100%;
+    width: 100%;
+  }
+  img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain; /* Можно cover, если хочешь заполнить весь экран */
+  }
+</style>
+</head>
+<body>
+<img src="https://imgur.com/a/aubzdE3" alt="GIF">
+</body>
+</html> 
